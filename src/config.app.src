@@ -17,6 +17,10 @@
         config,
         config_event
     ]},
-    {applications, [kernel, stdlib]},
+    {applications, [
+        kernel,
+        stdlib,
+        couch_log
+    ]},
     {mod, {config_app, []}}
 ]}.
